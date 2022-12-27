@@ -27,6 +27,7 @@ echo.                      ^|    [13] Xampp_v8.0.3-0                [14] K-Lite_
 echo.                      ^|    [15] KMPlayer_v4.2.2.8             [16] VLC_v3.0.2                        ^|
 echo.                      ^|    [17] Telegram_v2.8.0               [18] Zapya                             ^|
 echo.                      ^|    [19] MiniTool_Partition_v10.2      [20] VirtualBox_v5.2.22                ^|
+echo.                      ^|    [21] CrystalDiskInfo8_12_0                                                ^|
 echo.                      ^|                                                                              ^|
 echo.                      ^|                                       [0] Atras                              ^|
 echo.                      ^|                                                                              ^|
@@ -40,6 +41,7 @@ echo.
 set /p "opcion= Elige un Opcion, teclee su numero y presione Enter: "
 
 if %opcion% EQU 0 (goto Back)
+if %opcion% EQU 21 (goto CrystalDiskInfo8_12_0)
 if %opcion% EQU 20 (goto VirtualBox_v5.2.22)
 if %opcion% EQU 19 (goto MiniTool_Partition_v10.2)
 if %opcion% EQU 18 (goto Zapya)
@@ -317,6 +319,17 @@ echo. =============================================================
 echo.
 echo Instalacion de VirtualBox_v5.2.22
 "%~dp0\Other\VirtualBox_v5.2.22"
+echo.
+goto:MainMenu
+
+::===============================================================================================
+::===============================================================================================
+:CrystalDiskInfo8_12_0
+echo.
+echo. =============================================================
+echo.
+echo Instalacion de Crystal Disk Info_v8.12.0
+"%~dp0\Other\CrystalDiskInfo8_12_0"
 echo.
 goto:MainMenu
 
