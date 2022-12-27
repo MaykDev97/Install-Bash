@@ -17,19 +17,19 @@ Echo.                   ^|______________________________________________________
 Echo.                   ^|                                                                                       ^|
 Echo.                   ^|   [1]  Instalar Lista de Programas                                                    ^|
 Echo.                   ^|                                                                                       ^|
-Echo.                   ^|    - IObit Smart Defrag Pro_v6.0   - Iobit Uninstaller_v8.1   - Everything            ^| 
+Echo.                   ^|    - IObit Smart Defrag Pro_v6.0   - Iobit Uninstaller_v8.1   - Everything            ^|
 Echo.                   ^|    - Advanced System Care Pro_v13  - Microsof Visual C++      - JDK JAVA_v14          ^|
 Echo.                   ^|    - Zapya                         - Google Chrome_v96        - Winrar_v5.80          ^|
 Echo.                   ^|    - Office_v16                    - Format_Factory           - 7Z                    ^|
 Echo.                   ^|    - PotPlayer + Codec_PotPlayer   - Karpersky_v18            - Aimp                  ^|
 Echo.                   ^|    - Directory Opus Pro_12.12      - DuktoR6                  - HD Sentinel Pro_v5.0  ^|
 Echo.                   ^|    - Driver Booster_v7             - Simplewall_v3.1.2        - Firefox_v88           ^|
-echo.                   ^|    - EaseUS_Data_Recovery_v13      - Node_v14.17.6            - Telegram_v2.8.0       ^|
-echo.                   ^|    - VSCode-x64_v1.73.0            - HiSuite_9.0.3            - NotePad++_v7.8.5      ^|
-echo.                   ^|    - MiniTool_Partition_v10.2      - VirtualBox_v5.2.22       - WhatsApp              ^|
-echo.                   ^|    - Git_v2.37.3                   - Xampp_v8.0.3-0                                   ^|
+Echo.                   ^|    - EaseUS_Data_Recovery_v13      - Node_v14.17.6            - Telegram_v2.8.0       ^|
+Echo.                   ^|    - VSCode-x64_v1.73.0            - HiSuite_9.0.3            - NotePad++_v7.8.5      ^|
+Echo.                   ^|    - MiniTool_Partition_v10.2      - VirtualBox_v5.2.22       - WhatsApp              ^|
+Echo.                   ^|    - Crystal_Disk_Info_v8.12.0     - Xampp_v8.0.3-0           - Git_v2.37.3           ^|
 Echo.                   ^|                                                                                       ^|
-Echo.                   ^|   [2] Atras                                                                           ^|  
+Echo.                   ^|   [2] Atras                                                                           ^|
 Echo.                   ^|                                                                                       ^|
 Echo.                   ^|                         By Maykol D.Gonzalez Matos [ maykol.danieluci@gmail.com ]     ^|
 Echo.                   ^|                                                                                       ^|
@@ -134,6 +134,11 @@ echo. =============================================================
 echo.
 echo Instalacion de Simplewall_v3.1.2
 "%~dp0\AdvanceUser\simplewall-3.1.2"
+echo.
+echo. =============================================================
+echo.
+echo Instalacion de Crystal_Disk_Info_v8.12.0
+"%~dp0\Other\CrystalDiskInfo8_12_0"
 echo.
 echo. =============================================================
 echo.

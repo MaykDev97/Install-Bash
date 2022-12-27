@@ -10,32 +10,32 @@ title Interfaz Automatica de Instalacion de Software - Lista de Programas
 :MainMenu
 ::===============================================================================================
 cls
-echo.                       _______________________________________________________________________________
-echo.                      ^|                                                                              ^|
-echo.                      ^|                              Lista de Programas                              ^|
-echo.                      ^|______________________________________________________________________________^|
-echo.                      ^|                                                                              ^|
-echo.                      ^|                    Programas de Usuario Basico y Avanzado                    ^|
-echo.                      ^|                                                                              ^|
-echo.                      ^|    [1] Advanced_System_Care_Pro_v13     [2] IObit_Smart_Defrag_Pro_v6.0      ^|
-echo.                      ^|    [3] Iobit_Uninstaller_v8.1           [4] Driver_Booster_v7                ^|
-echo.                      ^|    [5] Winrar_v5.80                     [6] 7Z                               ^|
-echo.                      ^|    [7] Aimp_4.70                        [8] PotPlayer_v1.7.8                 ^|
-echo.                      ^|    [9] Supercopier4                     [10] Google_Chrome_v96               ^|
-echo.                      ^|    [11] Format_Factory                  [12] Everything                      ^|
-echo.                      ^|    [13] Simplewall_v3.1.2               [14] Directory_Opus_12.12            ^|
-echo.                      ^|    [15] HD_Sentinel_Pro_v5.0            [16] DuktoR6                         ^|
-echo.                      ^|    [17] Microsof_Visual_C++             [18] JDK_JAVA_v14                    ^|
-echo.                      ^|    [19] Karpersky_v18                   [20] Office_v16                      ^|
-echo.                      ^|                                                                              ^|
-echo.                      ^|                                         [0] Atras                            ^|
-echo.                      ^|                                                                              ^|
-echo.                      ^|                  By Maykol D.Gonzalez Matos  (maykol.danieluci@gmail.com)    ^|
-echo.                      ^|                                                                              ^|
-echo.                      ^|                              Ultima revision de script: 18/18/2022   v.1.1   ^|
-echo.                      ^|                                      Fecha:[%Date%] Hora:[%Time%]   ^|
-echo.                      ^|                                           @MaykDev97  Telf: {+53 56083106}   ^|
-echo.                      ^|______________________________________________________________________________^|
+Echo.                       _______________________________________________________________________________
+Echo.                      ^|                                                                              ^|
+Echo.                      ^|                              Lista de Programas                              ^|
+Echo.                      ^|______________________________________________________________________________^|
+Echo.                      ^|                                                                              ^|
+Echo.                      ^|                    Programas de Usuario Basico y Avanzado                    ^|
+Echo.                      ^|                                                                              ^|
+Echo.                      ^|    [1] Advanced_System_Care_Pro_v13     [2] IObit_Smart_Defrag_Pro_v6.0      ^|
+Echo.                      ^|    [3] Iobit_Uninstaller_v8.1           [4] Driver_Booster_v7                ^|
+Echo.                      ^|    [5] Winrar_v5.80                     [6] 7Z                               ^|
+Echo.                      ^|    [7] Aimp_4.70                        [8] PotPlayer_v1.7.8                 ^|
+Echo.                      ^|    [9] Supercopier4                     [10] Google_Chrome_v96               ^|
+Echo.                      ^|    [11] Format_Factory                  [12] Everything                      ^|
+Echo.                      ^|    [13] Simplewall_v3.1.2               [14] Directory_Opus_12.12            ^|
+Echo.                      ^|    [15] HD_Sentinel_Pro_v5.0            [16] DuktoR6                         ^|
+Echo.                      ^|    [17] Microsof_Visual_C++             [18] JDK_JAVA_v14                    ^|
+Echo.                      ^|    [19] Karpersky_v18                   [20] Office_v16                      ^|
+Echo.                      ^|                                                                              ^|
+Echo.                      ^|                                         [0] Atras                            ^|
+Echo.                      ^|                                                                              ^|
+Echo.                      ^|                  By Maykol D.Gonzalez Matos  (maykol.danieluci@gmail.com)    ^|
+Echo.                      ^|                                                                              ^|
+Echo.                      ^|                              Ultima revision de script: 18/18/2022   v.1.1   ^|
+Echo.                      ^|                                      Fecha:[%Date%] Hora:[%Time%]   ^|
+Echo.                      ^|                                           @MaykDev97  Telf: {+53 56083106}   ^|
+Echo.                      ^|______________________________________________________________________________^|
 echo.
 set /p "opcion= Elige un Opcion, teclee su numero y presione Enter: "
 

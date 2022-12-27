@@ -10,33 +10,33 @@ title Interfaz Automatica de Instalacion de Software - Otros Prpgramas
 :MainMenu
 ::=======================================================================================================================================
 cls
-echo.                       ______________________________________________________________________________
-echo.                      ^|                                                                              ^|
-echo.                      ^|                              Lista de Programas                              ^|
-echo.                      ^|______________________________________________________________________________^|
-echo.                      ^|                                                                              ^|
-echo.                      ^|                                Otros Progrmas                                ^|
-echo.                      ^|                                                                              ^|
-echo.                      ^|    [1] EaseUS_Data_Recovery_v13       [2] Firefox_v88                        ^|
-echo.                      ^|    [3] Node_v14.17.6                  [4] SuiteMi_v2.2.0                     ^|
-echo.                      ^|    [5] VSCode-x64_v1.73.0             [6] HiSuite_9.0.3                      ^|
-echo.                      ^|    [7] g3uTools_v2.29.0               [8] NotePad++_v7.8.5                   ^|
-echo.                      ^|    [9] WhatsApp                       [10] Aida64_Engineer                   ^|
-echo.                      ^|    [11] Git_v2.37.3                   [12] Opera_v74.0.3                     ^|
-echo.                      ^|    [13] Xampp_v8.0.3-0                [14] K-Lite_Codec_Pack_v1602           ^|
-echo.                      ^|    [15] KMPlayer_v4.2.2.8             [16] VLC_v3.0.2                        ^|
-echo.                      ^|    [17] Telegram_v2.8.0               [18] Zapya                             ^|
-echo.                      ^|    [19] MiniTool_Partition_v10.2      [20] VirtualBox_v5.2.22                ^|
-echo.                      ^|    [21] CrystalDiskInfo8_12_0                                                ^|
-echo.                      ^|                                                                              ^|
-echo.                      ^|                                       [0] Atras                              ^|
-echo.                      ^|                                                                              ^|
-echo.                      ^|                  By Maykol D.Gonzalez Matos  (maykol.danieluci@gmail.com)    ^|
-echo.                      ^|                                                                              ^|
-echo.                      ^|                              Ultima revision de script: 18/18/2022   v.1.1   ^|
-echo.                      ^|                                      Fecha:[%Date%] Hora:[%Time%]   ^|
-echo.                      ^|                                           @MaykDev97  Telf: {+53 56083106}   ^|
-echo.                      ^|______________________________________________________________________________^|
+Echo.                       ______________________________________________________________________________
+Echo.                      ^|                                                                              ^|
+Echo.                      ^|                              Lista de Programas                              ^|
+Echo.                      ^|______________________________________________________________________________^|
+Echo.                      ^|                                                                              ^|
+Echo.                      ^|                                Otros Progrmas                                ^|
+Echo.                      ^|                                                                              ^|
+Echo.                      ^|    [1] EaseUS_Data_Recovery_v13       [2] Firefox_v88                        ^|
+Echo.                      ^|    [3] Node_v14.17.6                  [4] SuiteMi_v2.2.0                     ^|
+Echo.                      ^|    [5] VSCode-x64_v1.73.0             [6] HiSuite_9.0.3                      ^|
+Echo.                      ^|    [7] g3uTools_v2.29.0               [8] NotePad++_v7.8.5                   ^|
+Echo.                      ^|    [9] WhatsApp                       [10] Aida64_Engineer                   ^|
+Echo.                      ^|    [11] Git_v2.37.3                   [12] Opera_v74.0.3                     ^|
+Echo.                      ^|    [13] Xampp_v8.0.3-0                [14] K-Lite_Codec_Pack_v1602           ^|
+Echo.                      ^|    [15] KMPlayer_v4.2.2.8             [16] VLC_v3.0.2                        ^|
+Echo.                      ^|    [17] Telegram_v2.8.0               [18] Zapya                             ^|
+Echo.                      ^|    [19] MiniTool_Partition_v10.2      [20] VirtualBox_v5.2.22                ^|
+Echo.                      ^|    [21] Crystal_Disk_Info_v8.12.0                                            ^|
+Echo.                      ^|                                                                              ^|
+Echo.                      ^|                                       [0] Atras                              ^|
+Echo.                      ^|                                                                              ^|
+Echo.                      ^|                  By Maykol D.Gonzalez Matos  (maykol.danieluci@gmail.com)    ^|
+Echo.                      ^|                                                                              ^|
+Echo.                      ^|                              Ultima revision de script: 18/18/2022   v.1.1   ^|
+Echo.                      ^|                                      Fecha:[%Date%] Hora:[%Time%]   ^|
+Echo.                      ^|                                           @MaykDev97  Telf: {+53 56083106}   ^|
+Echo.                      ^|______________________________________________________________________________^|
 echo.
 set /p "opcion= Elige un Opcion, teclee su numero y presione Enter: "
 
@@ -323,12 +323,11 @@ echo.
 goto:MainMenu
 
 ::===============================================================================================
-::===============================================================================================
 :CrystalDiskInfo8_12_0
 echo.
 echo. =============================================================
 echo.
-echo Instalacion de Crystal Disk Info_v8.12.0
+echo Instalacion de Crystal_Disk_Info_v8.12.0
 "%~dp0\Other\CrystalDiskInfo8_12_0"
 echo.
 goto:MainMenu
