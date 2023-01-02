@@ -25,9 +25,9 @@ Echo.                             ^|   [4] Drivers y DirectX                    
 Echo.                             ^|                                                           ^|  
 Echo.                             ^|   [5] Lista de Programas Basicos y Avanzados              ^|
 Echo.                             ^|                                                           ^|
-Echo.                             ^|   [6] Otros Programas                                     ^|
+Echo.                             ^|   [6] Otros Programas        [7] Crack                    ^|
 Echo.                             ^|                                                           ^|
-Echo.                             ^|   [7] Exit                                                ^|
+Echo.                             ^|   [8] Exit                                                ^|
 Echo.                             ^|                                                           ^|
 Echo.                             ^| By Maykol D.Gonzalez Matos [ maykol.danieluci@gmail.com ] ^|
 Echo.                             ^|                                                           ^|
@@ -36,8 +36,9 @@ Echo.                             ^|              Fecha:[%Date%] Hora:[%Time%]  
 Echo.                             ^|                  @MaykDev97   Telf:{+53 56083106}         ^|
 Echo.                             ^|___________________________________________________________^|
 Echo.
-choice /C:123456 /N /M ".                                      Entre su eleccion !!! [1,2,3,4,5,6] : "
-if errorlevel 7 goto:Exit
+choice /C:12345678 /N /M ".                                      Entre su eleccion !!! [1,2,3,4,5,6,7,8] : "
+if errorlevel 8 goto:Exit
+if errorlevel 7 goto:Crack
 if errorlevel 6 goto:OtherPrograms
 if errorlevel 5 goto:ProgramsList
 if errorlevel 4 goto:Drivers
@@ -64,9 +65,13 @@ if errorlevel 1 goto:InstallBasicUser
 :OtherPrograms
 "%~dp0OtherPrograms"
 
-::******************************************************************************************************
+::======================================================================================================
 :InstalacionPersonalizada 
 "%~dp0@MaykDev97"
+
+::======================================================================================================
+:Crack
+"%~dp0Crack"
 
 ::======================================================================================================
 :Exit
